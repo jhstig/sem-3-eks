@@ -9,7 +9,7 @@ include("./templates/header.php"); ?>
             Klik på et modelnummer for at ændre i detaljer
         </div>
         <div class="col text-bottom">
-            <button type="button" class="btn btn-block btn-warning">Tilføj nyt modelnummer</button>
+            <button type="button" class="btn btn-block btn-info">Tilføj nyt modelnummer</button>
         </div>
         
     </div>
@@ -24,6 +24,7 @@ include("./templates/header.php"); ?>
                         <th scope="col">Stoftyper</th>
                         <th scope="col">Størrelser</th>
                         <th scope="col">Reservedelsnumre</th>
+                        <th scope="col">Redigering</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -34,6 +35,7 @@ include("./templates/header.php"); ?>
                         <td>Dope dye/Piece dye</td>
                         <td>XS-XXL</td>
                         <td>127348-540-1 <br> 127348-540-2 <br> 127348-540-3 <br> 127348-540-4 <br> 127348-540-5 <br> 127348-540-6</td>
+                        <td><button type="button" class="btn btn-warning">Rediger</button></td>
                     </tr>
                     <tr>
                         <th scope="row">127348-535</th>
@@ -42,6 +44,7 @@ include("./templates/header.php"); ?>
                         <td>Dope dye/Piece dye</td>
                         <td>S-XL</td>
                         <td>127348-535-1 <br> 127348-535-2 <br> 127348-535-3 <br> 127348-535-4 <br> 127348-535-5</td>
+                        <td><button type="button" class="btn btn-warning">Rediger</button></td>
                     </tr>
                 </tbody>
             </table>
